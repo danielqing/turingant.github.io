@@ -1,51 +1,34 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Turing Ant
-github: https://github.com/turingant
-about: I am freelance developer. Currently doing more in backend, actually in C/C++, Java and Python.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+safe: false
+permalink: /posts/:title.html
+exclude:
+  - README.md
 
-enableTags: true
-tagarray: []
+name: Your Name's Site
+host: localhost
+desc: Some description of your site.
 
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
+custom:
+    category:
+        default: Default Category
+        another: Another Category
+    categories:
+      - name:  default
+        title: Default Category
 
-social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-skype
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
-    - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+      - name:  another
+        title: Another Category
 
-share:
-  twitter_username: agusmakmun6
-  fb_appid: 1749788565247320
+    scrollingLoadCount: 2                          # 滚屏自动加载文章数量，“0”为关闭
 
-urls:
-    - text: About Me
-      url: /about/
-    - text: Projects
-      url: /projects/
-    - text: Github
-      url: https://github.com/turingant
-    - text: XML Feed
-      url: /feed.xml
+meta:
+    author:
+        name: Your Name
+        email: your-email@example.com
+        disqus: your-disqus-short-name              # Disqus缩略标识
+        gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID
+        github: your-github-account                 # GitHub账号
+        gravatar: 1cd8c12591616d8c22aaa624f8c07834  # Gravatar头像标识
 
-url: "https://turingant.github.io"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page:num/"
-markdown: kramdown
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+    disqus: disqus.com/embed.js                     # Disqus评论的JS地址
+    gapi: http://www.google.com/jsapi               # Google API地址
+    gravatar: http://en.gravatar.com/avatar/        # Gravatar头像服务器地址
