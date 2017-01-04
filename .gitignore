@@ -1,0 +1,19 @@
+#jekyll & grunt build
+_site
+release
+_includes/head.html
+pages/1_articles.md
+.jekyll-metadata
+
+#temporary files produced by grunt
+.tmp
+
+#PhpStorm configure files
+.idea
+
+#npm
+node_modules
+
+#react cache
+build/.module-cache
+build/articles.js
