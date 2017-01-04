@@ -8,7 +8,7 @@
   color: $white-color;
   cursor: pointer;
   display: inline-block;
-  font-family: "Times New Roman","Microsoft YaHei",$base-font-family;
+  font-family: $base-font-family,"Times New Roman","Microsoft YaHei";
   font-size: $base-font-size;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
