@@ -102,22 +102,6 @@ hr {
   }
 }
 
-.default-font {
-  font-family: $base-font-family;
-
-}
-
-.title-font {
-  font: 400 1em/1.8 Avenir, 'Segoe UI', 'Hiragino Sans GB', 'STHeiti', 'Microsoft Yahei', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
-  background-color: #fdfdfd;
-
-}
-
-.content-font {
-  font: 400 1em/1.8 Avenir, 'Segoe UI', 'Hiragino Sans GB', 'STHeiti', 'Microsoft Yahei', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
-  background-color: #fdfdfd;
-
-}
 
 .nav {
   min-height: 64px;

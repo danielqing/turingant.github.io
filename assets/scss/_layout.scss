@@ -102,22 +102,6 @@ hr {
   }
 }
 
-.default-font {
-  font-family: $base-font-family;
-
-}
-
-.title-font {
-  font-family: "Microsoft YaHei";
-  background-color: #fdfdfd;
-
-}
-
-.content-font {
-  font-family: "Microsoft YaHei";
-  background-color: #fdfdfd;
-
-}
 
 .nav {
   min-height: 64px;
@@ -168,7 +152,7 @@ hr {
     display: inline-block;
     width: 85%;
     border-bottom: 1px dashed lighten($light-gray-color, 10%);
-    font-family: "Microsoft YaHei",$base-font-family",Times New Roman";
+    font-family: $base-font-family;
   }
 
   .date-label {
