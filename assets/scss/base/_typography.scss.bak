@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Times New Roman","Microsoft YaHei",$heading-font-family;
+  font-family: "Microsoft YaHei","Times New Roman",$heading-font-family;
   font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: $small-spacing 0 $small-spacing 0;
