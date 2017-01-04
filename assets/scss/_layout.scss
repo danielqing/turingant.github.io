@@ -107,6 +107,21 @@ hr {
   }
 }
 
+.default-font {
+  font-family: $base-font-family;
+
+}
+
+.title-font {
+  font-family: "Microsoft YaHei",$base-font-family;
+
+}
+
+.content-font {
+  font-family: "Microsoft YaHei",$base-font-family;
+
+}
+
 .nav {
   min-height: 64px;
 }

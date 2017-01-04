@@ -107,6 +107,21 @@ hr {
   }
 }
 
+.default-font {
+  font-family: $base-font-family;
+
+}
+
+.title-font {
+  font-family: $base-font-family;
+
+}
+
+.content-font {
+  font-family: $base-font-family;
+
+}
+
 .nav {
   min-height: 64px;
 }
@@ -173,6 +188,7 @@ hr {
   display: inline-block;
   letter-spacing: 1px;
   font-size: rem(14);
+  font-family: $base-font-family;
 }
 
 .post-link,
