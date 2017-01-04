@@ -2,7 +2,7 @@
 
 body {
   color: $base-font-color;
-  font-family: "Times New Roman","Microsoft YaHei",$base-font-family;
+  font-family: "Microsoft YaHei",$base-font-family;
   //font-feature-settings: "kern", "liga", "pnum";
   font-size: $base-font-size;
   line-height: $base-line-height;
@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Times New Roman","Microsoft YaHei",$heading-font-family;
+  font-family: "Microsoft YaHei",$heading-font-family;
   font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: $small-spacing 0 $small-spacing 0;
@@ -89,7 +89,7 @@ code {
   background: none;
   border-radius: 0;
   border: none;
-  font-family: "Times New Roman","Microsoft YaHei",$base-font-family;
+  font-family: "Microsoft YaHei",$base-font-family;
   font-size: 0.9em;
   margin: 0;
   padding: 0 5px;
@@ -98,7 +98,7 @@ code {
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: "Times New Roman","Microsoft YaHei",$base-font-family;
+  font-family: "Microsoft YaHei",$base-font-family;
   font-size: 0.85em;
   margin: 0;
   padding: 5px 10px !important;
