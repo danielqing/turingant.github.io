@@ -113,12 +113,12 @@ hr {
 }
 
 .title-font {
-  font-family: $base-font-family;
+  font-family: "Microsoft YaHei",$base-font-family;
 
 }
 
 .content-font {
-  font-family: $base-font-family;
+  font-family: "Microsoft YaHei",$base-font-family;
 
 }
 
