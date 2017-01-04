@@ -1,5 +1,5 @@
 {% if page.comments %}
-  <aside id="comments" class="duoshuo">
+  <aside id="comments" class="disqus">
 
     <div class="container">
       <h3><i class="icon icon-comments-o"></i> Comments</h3>
