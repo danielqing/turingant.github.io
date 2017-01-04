@@ -44,7 +44,6 @@ h6 {
 
 p {
   margin: 0 0 $small-spacing;
-  font-family: "Microsoft YaHei","Times New Roman",$base-font-family;
 
   &.lead {
     font-size: rem(22);
@@ -90,7 +89,7 @@ code {
   background: none;
   border-radius: 0;
   border: none;
-  font-family: "Times New Roman","Microsoft YaHei",$base-font-family;
+  font-family: "Consolas",$base-font-family;
   font-size: 0.9em;
   margin: 0;
   padding: 0 5px;
