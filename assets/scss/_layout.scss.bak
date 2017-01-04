@@ -152,7 +152,6 @@ hr {
     display: inline-block;
     width: 85%;
     border-bottom: 1px dashed lighten($light-gray-color, 10%);
-    font-family: "Microsoft YaHei",$base-font-family",Times New Roman";
   }
 
   .date-label {
