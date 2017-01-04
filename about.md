@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-**TuringAnt** is just another minimalist Jekyll theme that focuses on technical writing. Designed for engineers to write their ranting and findings.
+**Turing Ant** is just another minimalist Jekyll theme that focuses on technical writing. Designed for engineers to write their ranting and findings.
