@@ -1,0 +1,21 @@
+{% if page.comments %}
+  <aside id="comments" class="duoshuo">
+
+    <div class="container">
+      <h3><i class="icon icon-comments-o"></i> Comments</h3>
+	<div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ site.url }}{{ post.url }}"></div>
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"turingant"};
+		(function() {
+			var ds = document.createElement('script');
+			ds.type = 'text/javascript';ds.async = true;
+			ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+			ds.charset = 'UTF-8';
+			(document.getElementsByTagName('head')[0] 
+			 || document.getElementsByTagName('body')[0]).appendChild(ds);
+		})();
+		</script>
+    </div>
+
+  </aside>
+{% endif %}
