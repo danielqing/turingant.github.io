@@ -29,10 +29,6 @@ body {
   *zoom: 1;
 }
 
-body {
-  background-color: $base-background-color;
-}
-
 hr {
   border-top: none;
   border-bottom: 2px solid lighten($light-gray-color, 7%);
